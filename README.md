@@ -51,7 +51,7 @@ which also is equivalent to command
 ``` 
 $ ng build --configuration=production
 ```
-and to add our new staging environment file we need to change **angular.json** to be as following
+so to add our new staging environment file we need to change **angular.json** to be as following
 ```
 ...
   "build": {
@@ -80,7 +80,7 @@ and to add our new staging environment file we need to change **angular.json** t
           }
         }
 ```
-and if we run the following command
+and now we can run the following command
 ```
 $ ng build --configuration=staging
 ```
@@ -102,7 +102,7 @@ Try to locate the following section in **angular.json**
         },
 ```
 
-and add a new staging section for your new file as following
+then add the new staging section for your new file as following
 ```
 "serve": {
          ...
